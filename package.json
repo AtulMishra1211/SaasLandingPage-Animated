@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001788",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.14",
     "next": "^14.2.35",
@@ -21,7 +22,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.21",
-    "eslint": "^8.57.1",
+    "eslint": "^10.2.0",
     "eslint-config-next": "^16.2.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.3",
