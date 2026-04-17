@@ -1,6 +1,7 @@
 import ArrowRight from "@/assets/arrow-right.svg";
 import Logo from "@/assets/logosaas.png";
 import Image from "next/image";
+import Link from "next/link";
 import MenuIcon from "@/assets/menu.svg";
 
 export const Header = () => {
@@ -19,11 +20,11 @@ export const Header = () => {
           <Image src = {Logo} alt = "Saas Logo" height = {40} width = {40} />
           <MenuIcon className = "h-5 w-5 md:hidden" />
           <nav className = "hidden md:flex gap-6 text-black/60 items-center">
-            <a href = "#">About</a>
-            <a href = "#">Features</a>
-            <a href = "#">Customer</a>
-            <a href = "#">Updates</a>
-            <a href = "#">Help</a>
+            <Link href="/about">About</Link>
+            <Link href="/features">Features</Link>
+            <Link href="/customer">Customer</Link>
+            <Link href="/updates">Updates</Link>
+            <Link href="/help">Help</Link>
             <button className = "bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
               Get for free
             </button>
