@@ -28,7 +28,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 32 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="fixed bottom-6 right-6 z-50 hidden w-[280px] flex-col items-start rounded-[32px] border border-slate-200 bg-white/95 p-4 shadow-[0_24px_80px_rgba(15,23,42,0.12)] backdrop-blur-xl md:flex"
+        className="fixed bottom-4 left-4 right-4 z-50 mx-auto flex max-w-[280px] flex-col items-start rounded-[32px] border border-slate-200 bg-white/95 p-4 shadow-[0_24px_80px_rgba(15,23,42,0.12)] backdrop-blur-xl md:bottom-6 md:left-auto md:right-6 md:max-w-[280px]"
       >
         <Link href="/about" className="group flex w-full items-center gap-3">
           <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-3xl border border-slate-200 bg-slate-100">
